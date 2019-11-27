@@ -5,6 +5,10 @@
   "scripts": {
     "build:prod":"NODE_ENV = production webpack -p -progess --colors --ball --optimize-minimize",
     "postinstall": "npm run build:prod"
+  },
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
   }
 
 }
